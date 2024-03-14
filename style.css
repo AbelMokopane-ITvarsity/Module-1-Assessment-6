@@ -1,0 +1,117 @@
+.btn{
+    font-family: Roboto,sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    background: limegreen;
+    width: 70px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow,transform;
+    transition-property: box-shadow,transform;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, o.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h2{
+    font-family: Impact,fantasy;
+    text-align: center;
+    font-size: 30px;
+    color: limegreen;
+    font-style: italic;
+}
+
+h4{
+    font-family: Impact, fantasy;
+    font-size: 20px;
+    font-style: italic;
+    color: limegreen;
+    text-align:left;
+}
+
+h5{
+    font-size: 20px;
+}
+
+p{
+    font-family: Helvetica,sans-serif;
+    text-align:left;
+    text-rendering: geometricPrecision;
+    font-size: 20px;
+}
+
+*{
+    padding:  0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: montserrat;
+}
+
+nav{
+    background: limegreen;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-decoration-style: solid;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+table{
+    font-family: Helvetica,sans-serif;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-style: double;
+    border-color: green;
+    position:absolute;
+    object-position: center;
+    table-layout: fixed;
+    list-style-position: inside;
+    text-align: center;
+}
+
+th{
+    font-weight: 800;
+    background-color: limegreen;
+    color: #ffffff;
+}
